@@ -4,7 +4,8 @@ const LandingPage = () => {
     const navigate = useNavigate();
     return (
         <div
-            className="h-screen w-full bg-[url('/bg-image.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center"
+            className="h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
+            style={{ backgroundImage: "url('./bg-image.png')" }}
         >
             <div className="grid grid-cols-5 gap-4 w-4/5">
                 <div className='col-span-2 flex flex-col items-center justify-center'>
@@ -13,7 +14,7 @@ const LandingPage = () => {
                     </h3>
                     <div className="w-20 border-b-4 border-green-500 mt-4" />
                     <h3 className="text-white text-3xl font-bold text-center">Where green meets serenity!</h3>
-                    <button type='button' onClick={()=>{
+                    <button type='button' onClick={() => {
                         navigate('/products');
                     }} className="bg-green-500 text-white py-2 px-4  rounded mt-4 cursor-pointer hover:bg-green-600">Get Started</button>
                 </div>

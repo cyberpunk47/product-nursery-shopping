@@ -22,42 +22,42 @@ const plantCategories: PlantCategory[] = [
         name: 'Snake Plant',
         price: 180,
         description: 'Produces oxygen at night, improving air quality.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: true
       },
       {
         name: 'Spider Plant',
         price: 120,
         description: 'Filters formaldehyde and xylene from the air.',
-        image: '/lily.png',
+        image: './lily.png',
         onSale: true
       },
       {
         name: 'Peace Lily',
         price: 150,
         description: 'Removes mold spores and purifies the air.',
-        image: '/lily.png',
+        image: './lily.png',
         onSale: true
       },
       {
         name: 'Boston Fern',
         price: 160,
         description: 'Adds humidity to the air and removes toxins.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: true
       },
       {
         name: 'Rubber Plant',
         price: 170,
         description: 'Easy to care for and effective at removing toxins.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: true
       },
       {
         name: 'Aloe Vera',
         price: 140,
         description: 'Purifies the air and has healing properties for skin.',
-        image: '/lily.png',
+        image: './lily.png',
         onSale: true
       }
     ]
@@ -69,42 +69,42 @@ const plantCategories: PlantCategory[] = [
         name: 'Lavender',
         price: 200,
         description: 'Calming fragrance, perfect for relaxation and aromatherapy.',
-        image: '/lavendar.png',
+        image: './lavendar.png',
         onSale: true
       },
       {
         name: 'Jasmine',
         price: 180,
         description: 'Sweet scent that promotes calm and relaxation.',
-        image: '/jasmine.png',
+        image: './jasmine.png',
         onSale: true
       },
       {
         name: 'Rosemary',
         price: 150,
         description: 'Refreshing aroma, also useful in cooking.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: true
       },
       {
         name: 'Mint',
         price: 120,
         description: 'Invigorating scent, great for teas and indoor freshness.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: true
       },
       {
         name: 'Lemon Balm',
         price: 140,
         description: 'Citrus scent, helps reduce stress and aids sleep.',
-        image: '/sunflower.png',
+        image: './sunflower.png',
         onSale: true
       },
       {
         name: 'Hyacinth',
         price: 190,
         description: 'Beautiful flowering plant with a fragrant aroma.',
-        image: '/hibiscus.png',
+        image: './hibiscus.png',
         onSale: true
       }
     ]
@@ -116,35 +116,35 @@ const plantCategories: PlantCategory[] = [
         name: 'Oregano',
         price: 100,
         description: 'Deters insects naturally; also a culinary herb.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Marigold',
         price: 110,
         description: 'Bright flowers, repels mosquitoes and pests.',
-        image: '/marigold.png',
+        image: './marigold.png',
         onSale: false
       },
       {
         name: 'Geraniums',
         price: 150,
         description: 'Keeps insects away while adding scent to your garden.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Basil',
         price: 120,
         description: 'Repels flies and mosquitoes; edible as well.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Catnip',
         price: 130,
         description: 'Repels mosquitoes and attracts cats.',
-        image: '/tulips.png',
+        image: './tulips.png',
         onSale: false
       }
     ]
@@ -156,42 +156,42 @@ const plantCategories: PlantCategory[] = [
         name: 'Aloe Vera',
         price: 140,
         description: 'Soothes skin ailments and boosts healing.',
-        image: '/lily.png',
+        image: './lily.png',
         onSale: false
       },
       {
         name: 'Echinacea',
         price: 160,
         description: 'Strengthens immunity and fights colds.',
-        image: '/sunflower.png',
+        image: './sunflower.png',
         onSale: false
       },
       {
         name: 'Peppermint',
         price: 130,
         description: 'Relieves digestive issues and headaches.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Lemon Balm',
         price: 140,
         description: 'Calms nerves and promotes relaxation.',
-        image: '/sunflower.png',
+        image: './sunflower.png',
         onSale: false
       },
       {
         name: 'Chamomile',
         price: 150,
         description: 'Helps sleep and reduces anxiety.',
-        image: '/daisy.png',
+        image: './daisy.png',
         onSale: false
       },
       {
         name: 'Calendula',
         price: 120,
         description: 'Heals wounds and soothes skin irritations.',
-        image: '/marigold.png',
+        image: './marigold.png',
         onSale: false
       }
     ]
@@ -203,42 +203,42 @@ const plantCategories: PlantCategory[] = [
         name: 'ZZ Plant',
         price: 200,
         description: 'Thrives in low light and needs minimal care.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Pothos',
         price: 100,
         description: 'Very resilient, grows in various conditions.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Snake Plant',
         price: 180,
         description: 'Requires infrequent watering; hardy and tough.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Cast Iron Plant',
         price: 160,
         description: 'Extremely hardy; tolerates neglect and low light.',
-        image: '/rose.png',
+        image: './rose.png',
         onSale: false
       },
       {
         name: 'Succulents',
         price: 150,
         description: 'Drought-tolerant with unique shapes and colors.',
-        image: '/lotus.png',
+        image: './lotus.png',
         onSale: false
       },
       {
         name: 'Aglaonema',
         price: 190,
         description: 'Low care indoor plant with vibrant foliage.',
-        image: '/china_rose.png',
+        image: './china_rose.png',
         onSale: false
       }
     ]

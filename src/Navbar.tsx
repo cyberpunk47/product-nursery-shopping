@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className='w-full bg-green-950 flex items-center justify-between'>
             <div className='flex items-center justify-center cursor-pointer' onClick={() => navigate('/')}>
-                <img src="/logo.png" alt="Paradise Nursery Logo" className='block w-25 h-22 object-contain mix-blend-color-burn' />
+                <img src="./logo.png" alt="Paradise Nursery Logo" className='block w-25 h-22 object-contain mix-blend-color-burn' />
                 <p className='text-black text-2xl font-bold'>Paradise Nursery
                     <p className='text-black text-sm italic'>Where Green Meets Serenity</p>
                 </p>
