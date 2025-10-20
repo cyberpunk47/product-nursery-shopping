@@ -28,6 +28,20 @@ npm run dev
 npm run build
 ```
 
+## Deployment
+
+This project is configured for GitHub Pages deployment.
+
+### Manual Deployment Steps:
+1. Build the project: `npm run build`
+2. Push to GitHub
+3. Go to repository Settings → Pages
+4. Set Source to "GitHub Actions"
+5. The workflow will automatically deploy
+
+### Live Demo
+Once deployed, access at: `https://YOUR-USERNAME.github.io/paradise-nursery-shopping/`
+
 ## Tech Stack
 
 - React + TypeScript
